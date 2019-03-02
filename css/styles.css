@@ -1,0 +1,403 @@
+html {
+    /*    1em = 16px*/
+    font-size: 1.5em;
+
+}
+
+body {
+
+    background-color: #8db5b1;
+    font-family: 'Raleway', sans-serif;
+    /*    font-weight: 400;*/
+    /*    line-height is 150% of the font size*/
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    font-size: 0.85em; 
+}
+
+p {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    line-height: 1.7;
+    
+}
+
+p1 {
+     margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    color: #4b2010 ;
+    font-size: 0.9em; 
+    
+}
+
+/*this is a group selection, selecting all the headlines h1-h4*/
+h1 {
+    margin-bottom: 1.3em;
+    line-height: 0.4;
+
+    font-size: 5em;
+    height: 45px;
+    color: #b4532e
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: .6em;
+    line-height: 0;
+    font-size: em;
+    color: #b4532e
+}
+
+h3,
+h4 {
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    line-height: 1;
+}
+
+h1 {
+    /*  top:0 right:0  bottom:0.5em left:0*/
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 0.5em 0;
+    font-size: 4.5em;
+}
+
+h2 {
+    /*  top:1.414em right:0  bottom:0.5em left:0*/
+    margin: 1.1em 0 1.4em 0;
+    font-size: 3.25em;
+    line-height: 0.2 ;
+}
+
+h3 {
+    /*  top:1.414em right:0  bottom:0.5em left:0*/
+    font-family: 'Lato', sans-serif;
+    margin: 1.1em 0 1.em 0;
+    font-size: 3.5em;
+    line-height: ;
+}
+
+h4 {
+    /*  top:1.414em right:0  bottom:0.5em left:0*/
+    margin: 1.414em 0 0.5em 0;
+    font-size: 1.333em;
+}
+
+small,
+.font_small {
+    font-size: 0.75em;
+}
+
+
+/* link*/
+
+a {
+    color: #779895;
+}
+
+a:hover {
+    color: #B2B1AE;
+    text-decoration: none;
+}
+
+/*button style*/
+/*solid button style*/
+.btn {
+    font-size: 1rem;
+    letter-spacing: .1em;
+    line-height: 2em;
+    border-radius: 20em;
+    /*    top:1.8 right:3.6 bottom 1.8 left3.6*/
+    /*    the size of button*/
+    padding: .5em 1em;
+    color: black;
+    background: rgba(0, 0, 255, 0.5);
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+/*outline button style*/
+.btn-primary-outline {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px #ffffff solid;
+    transition: all 0.5s;
+    border-radius: 0em;
+}
+
+.btn-primary-outline:hover {
+    color: #8db5b1;
+    background-color: white;
+    border-color: white;
+
+
+}
+
+
+.btn-primary {
+    color: #b4532e;
+    background-color: transparent;
+    border: 2px #b4532e solid;
+    transition: all 0.5s;
+    border-radius: 0em;
+    margin-bottom: 2em;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #b4532e;
+    border-color: #b4532e;
+
+}
+
+.view {
+    background: url(../img/plain-white-background.jpg) center center no-repeat;
+    padding: 10em 0;
+    text-align: center;
+}
+
+.me {}
+
+.heading {
+    background-color: white;
+
+}
+
+hr {
+    display: block;
+    border-color: #b4532e height: 2px;
+    border: 1em;
+    border-top: 2px solid #b4532e;
+    margin: 2em 0;
+    padding: 0;
+}
+
+hr2 {
+    display: block;
+    border-color: rgba(255, 255, 255, 0) height: 5px;
+    border: 1em;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    margin: 5em 0;
+    padding: 0;
+}
+
+hr3 {
+    display: block;
+    border-color: rgba(255, 255, 255, 0) height: 5px;
+    border: 1em;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    margin: 1em 0;
+    padding: 0;
+
+}
+
+hr4 {
+    display: block;
+    border-color: rgba(255, 255, 255, 0) height: px;
+    border: 1em;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    margin: 2.5em 0;
+    padding: 0;
+    
+}
+
+
+.projects {
+    
+    background-color: white ;
+    margin-top: 1em;
+    
+}
+
+.photo-link:hover { 
+opacity: 0.8;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(50%);
+
+
+}
+
+
+/*Portfolio thumbnails*/
+.portfolio-link img:hover {
+    opacity: 0.8;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+
+/*portfolio modal*/
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+/*modal box size*/
+.portfolio-modal .modal-dialog {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /*    enable the overflow to set the screen no scrolling*/
+    /*            overflow:hidden;*/
+}
+
+/*content*/
+.portfolio-modal .modal-content {
+    /*the paragraph font color*/
+    color: #746f6f;
+    padding: 0 0 2em 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*the background-color*/
+    background-color: rgb(231, 252, 250));
+}
+
+/*project title the lorem ipsum thing*/
+.portfolio-modal .modal-content h3 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 3em;
+
+}
+
+
+/*bottom of the modal box including prev, next, back to work links*/
+.portfolio-modal .bottom {
+    /* direction:   top right bottom left*/
+    padding: 0em 5em 2em 5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*the X close icon*/
+.portfolio-modal .modal-header .close {
+    font-size: 4em;
+    /* direction:   top right bottom left*/
+    padding: 0 1em 0 0;
+    font-weight: 200;
+    color: #b4532e;
+}
+
+
+.portfolio-modal .modal-header {
+    border-bottom: none;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.portfolio {
+    background-color: antiquewhite;
+}
+
+.contact {
+    background: white;
+
+}
+
+project {
+
+    background: white;
+
+}
+
+
+footer {
+    margin-top: 3em;
+    padding: 3em;
+    background-color: white;
+}
+
+
+footer .social {
+    font-size: 1.5em;
+
+}
+
+
+footer .info {
+    margin-top: 5em;
+    margin-bottom: 0 em;
+    font-size: 1.1em;
+}
+
+
+#portfolio,
+#about,
+#contact {
+    padding: 5em 0;
+}
+
+
+/*navigation*/
+
+.navbackground {
+    background-color: #fdfdfd;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    /*    disable the button border*/
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    padding-top: 0;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #9fc4c1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(46, 46, 46, 0.5);
+    font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #b4532e;
+;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #b4532e;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9fc4c1;
+}
+
+
+/* The active link, when scroll to the section, the menu items will turn to different color */
+
+.navbar-light a.active {
+    color: #b4532e !important;                                              
+    /*    background-color: #55555a !important;*/
+}
